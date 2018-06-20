@@ -1,5 +1,7 @@
 public class Strings{
 	public static void main(String[] args) {
+
+		System.gc(); //NOT RECOMMENDED
 		
 		String pan = "FERER12313";
 		
