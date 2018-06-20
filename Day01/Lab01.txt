@@ -1,0 +1,21 @@
+Create a new file Lab01.java and implement the following
+Implement a guessing game. You will generate a random number between 1 and 100. And play the game till the user guesses the number correct.
+
+------------Sample program------------- (77)
+
+>Enter a number between 1 and 100
+> 50
+Aim Higher
+>75
+Aim Higher
+>90
+Aim Lower
+>80
+Aim Lower
+>77
+You've got it in 5 attempts!!!
+
+------------------------------------
+
+> Math.random for generating random number
+> Scanner for input from the user in command prompt
