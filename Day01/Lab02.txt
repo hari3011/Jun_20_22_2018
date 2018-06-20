@@ -1,0 +1,15 @@
+Create a book with a id, title, price and author. Create a library of books that where you do the following. 
+
+Add a book; Remove a book given its title; Print details given the author name and/or title; Print all the books; Return a copy all the books;
+
+You can add the following books.
+
+"Ajax Hacks",200,"Bruce Perry"
+"Thinking in Java",1200,"Bruce Eckel",
+"Practical Ext JS 4",899, "Prabhu"
+"Programming Scala",1500,"Venkat"
+"Seven languages in seven weeks",3000,"Bruce Tate"
+
+1) Generate an unique number for every book that is added to the library
+2) Implement using Map
+
