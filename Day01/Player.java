@@ -10,7 +10,7 @@ interface Guitarist{
 interface Cricketer{
 	void play();
 }
-public class BaseGuitarist implements Guitarist{
+class BaseGuitarist implements Guitarist{
 	public void play(){
 		
 	}
