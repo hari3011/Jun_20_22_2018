@@ -1,6 +1,6 @@
 package com.gbig.lab01;
 
-import java.util.ArrayList;
+import java.util.ArrayList; //[java]/[util]/ArrayList.java
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
