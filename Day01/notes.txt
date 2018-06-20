@@ -1,0 +1,35 @@
+> C:/Program Files/Java
+> jdk-10.0.1 and jre-10.0.1
+
+> When you download jdk from Oracle
+> these are the 2 folders you get, jdk-10.0.1/bin
+
+> environment PATH variable
+> echo %PATH%
+> echo $PATH
+
+> set PATH=%PATH%;C:/Program Files/jdk-10.0.1/bin;
+> javac
+
+
+
+
+Basic things to know about Java
+
+> Java is OO language
+> v10
+> Strongly typed language; Compiled language
+
+> [C#/VB.NET] -> [IL] -> [CLR]
+> [Java] -> [Bytecodes] -> [JVM]
+
+> What do you need to work with Java?
+
+> Java Compiler; JVM ; Basic libraries to use in your code
+> [Java Development Kit] or [JDK]
+
+> What do you need if you want to create web applications?
+> What do you need if you want to develop enterpise features like security or transactions or messages ..etc?
+
+> [Java Enterprise Edition] or [JEE] or [J2EE]
+
