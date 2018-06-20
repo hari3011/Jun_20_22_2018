@@ -1,5 +1,6 @@
 public class TV{
 	private int volume;
+	
 	public void increaseVolume(){
 		volume++;
 	}
