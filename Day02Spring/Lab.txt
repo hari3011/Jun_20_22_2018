@@ -1,0 +1,16 @@
+In this lab we will practice configuring your beans and accessing them using ApplicationContext. The objective of this lab is to get accustomed to the syntax and not worry about integrating any other framework with it.
+
+You want to schedule the sessions for a Conference. The Conference uses a SessionPlanner for the same. The SessionPlanner loads the list of topics and their durations from a file.
+
+The topics file contains the following contents.
+
+ReactJS - 60 min
+Scala Tricks - 45 min
+Spring unit testing - 50 min
+Unit testing JavaScript - 50 min
+Concurrency on the JVM - 60 min
+Grails for MVC- 45 min
+Microservices using SpringBoot - 50 min
+
+The SessionPlanner splits the data to 60 min topics, 45 min topics and 50 min topics.
+Design the Conference and SessionPlanner classes and configure the beans. Create a User class that will create an instance of the Conference object and print the 60 min/50 min/45 min topics separately.
