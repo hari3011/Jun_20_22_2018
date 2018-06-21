@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+	
+	
+	<bean id="company" class="com.gbig.Company">
+		<property name="name" value="GBIG"></property>
+		<property name="offices">
+			<list>
+				<value>Hyderabad</value>
+				<value>Chennai</value>
+				<value>Delhi</value>
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="person" class="com.gbig.Person"></bean>
+	<bean id="car" class="com.gbig.Car" lazy-init="true"></bean>
+	<bean id="book" class="com.gbig.Book" scope="prototype"></bean>
+	
+	<bean id="dog1" class="com.gbig.Dog">
+		<property name="name" value="Bubbles"></property>
+		<property name="breed" value="Dalmation"></property>
+	</bean>
+	
+	<bean id="player1" class="com.gbig.Player">
+		<constructor-arg value="Ronaldo"></constructor-arg>
+	</bean>
+	
+</beans>
