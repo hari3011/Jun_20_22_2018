@@ -5,7 +5,7 @@ import java.util.Iterator;
 public class LibraryUser {
 
 	public static void main(String[] args) {
-		Library library = new Library();
+		Library2 library = new Library2();
 		library.addBook("Ajax Hacks", 100, "Bruce Perry");
 		library.addBook("Practical ExtJS4", 200, "Prabhu");
 		library.addBook("Thinking in Java", 100, "Bruce Eckel");
