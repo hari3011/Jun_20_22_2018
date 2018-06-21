@@ -14,7 +14,8 @@ public class LambdaUser {
 		}
 		langs.forEach(lang -> System.out.println(lang));
 		
-				
+		//Stream API which is similar to LINQ
+		
 		
 		//1
 		Printer printer1 = new ConsolePrinter();
