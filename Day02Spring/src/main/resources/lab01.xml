@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean id="conference" class="com.gbig.lab01.Conference">
+		<property name="sessionPlanner" ref="sessionPlanner"></property>
+	</bean>
+	
+	<bean id="sessionPlanner" class="com.gbig.lab01.SessionPlannerImpl">
+		<property name="topicsLoader" ref="topicsLoader"></property>
+	</bean>
+	
+	<bean id="topicsLoader" class="com.gbig.lab01.TopicsLoader">
+		<constructor-arg value="topics.txt"></constructor-arg>
+	</bean>
+</beans>
