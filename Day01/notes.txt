@@ -1,3 +1,73 @@
+---Spring Framework---
+
+Java SE (Java Standard Edition) (jdk)
+Java EE (Java Enterprise Edition) (jee)
+java ME (java micro edition) 
+
+class Account{
+	accountNumber, balance
+	void deposit(amount){
+	}
+	void withdraw(amount){
+	}
+	void transferFund(from,to,amount){
+	}
+	void printStatement(){
+		
+	}
+}
+[User] -> logs in -> [Create Account object and assign it to him]
+
+1) Object Pooling (Account objects)
+2) Transaction service
+3) Security
+
+class Customer{
+}
+
+[EJB Container] Drop your classes inside the container
+Tell the container what services you need!
+Container will provide those to you
+
+Big catch? 
+convert your Account to EJB -> Enterprise Java Beans
+interface AccountHome{ ... }
+interface AccountRemote{ ... }
+class AccountBean implements XYZBean{
+	//No constructor
+	//No static variables
+	//No final variables
+	//No extends from some pther class
+	//No unneccessary throws keyword in your methods
+	//No private methods
+}
+ejb-jar.xml(what services you need)
+Bundle all these into a jar file AND drop it inside the container
+
+Spring Framework (Lightweight Container)
+	POJO framework
+	No servers; No need to install and configure;
+	It's just a collection of several JAR files; that you need to add to the build path
+	HUGE HUGE API 
+
+.NET Enterprise Services
+
+
+compatible with zip files
+jar (java archive)
+war (web archive)
+ear (enterprise archive)
+
+Abstract classes vs. interfaces
+
+1) Your class can extend only one abstract class, but it can extend or implement multiple interfaces
+2) Abstract classes can have variables, constructors, concrete methods and abstract methods
+3) Interfaces can have abstract methods only. They can also have variables (but variables will static and final)
+
+4)Abstract classes REPRESENT A CATEGORY
+
+
+
 > C:/Program Files/Java
 > jdk-10.0.1 and jre-10.0.1
 
@@ -12,6 +82,15 @@
 > javac
 
 
+IDE	-> VS
+IDE -> Eclipse, IntelliJ IDEA, NetBeans
+
+Basic Editor
+	Plugins
+	Spring Plugin
+	AWS/Google Plugin
+
+Eclipse + Spring plugin = STS (SpringSource Tool Suite)	
 
 
 Basic things to know about Java
