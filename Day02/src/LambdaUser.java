@@ -1,6 +1,20 @@
+import java.util.ArrayList;
+
 public class LambdaUser {
 
 	public static void main(String[] args) {
+		
+		ArrayList<String> langs = new ArrayList<String>();
+		langs.add("Scala");
+		langs.add("Ruby");
+		langs.add("Groovy");
+		
+		for (int i = 0; i < langs.size(); i++) {
+			System.out.println(langs.get(i));
+		}
+		langs.forEach(lang -> System.out.println(lang));
+		
+				
 		
 		//1
 		Printer printer1 = new ConsolePrinter();
@@ -18,7 +32,7 @@ public class LambdaUser {
 		Printer printer3 = (message) -> System.out.println(message);
 		printer3.print("Hello Lambda");
 		
-		Calculator calc = (x,y) -> x + y;
+		Calculator calc = (a,b) -> a + b;
 		int sum = calc.add(10, 20);
 		System.out.println(sum);
 		
@@ -32,8 +46,10 @@ public class LambdaUser {
 
 interface Calculator{
 	int add(int x,int y);
+	//int subtract(int x,int y);
 }
 
+//Functional interface
 interface Printer{
 	void print(String message);
 }
