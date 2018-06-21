@@ -5,6 +5,7 @@ spring-beans-4.3.10.RELEASE.jar
 spring-core-4.3.10.RELEASE.jar
 (http://repo1.maven.org/maven2/org/springframework/spring-core/4.3.10.RELEASE/)
 commons-logging-1.2.jar
+
 spring-expression-4.3.10.RELEASE.jar
 (http://repo1.maven.org/maven2/org/springframework/spring-expression/4.3.10.RELEASE/)
 spring-tx-4.3.10.RELEASE.jar
